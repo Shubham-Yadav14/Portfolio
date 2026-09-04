@@ -1,5 +1,11 @@
 # Shubham Yadav - Portfolio Website
 
+## 🌐 Live Demo
+
+**[Visit Portfolio](https://shubhamyadavporfolio.netlify.app/)**
+
+---
+
 A modern, premium, highly animated personal portfolio website built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Tech Stack
