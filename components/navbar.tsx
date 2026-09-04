@@ -91,6 +91,19 @@ export default function Navbar() {
     };
   }, [isMobileMenuOpen]);
 
+  const handleMobileNavClick = (href: string) => {
+    setIsMobileMenuOpen(false);
+    document.body.style.overflow = "";
+
+    requestAnimationFrame(() => {
+      const target = document.getElementById(href.substring(1));
+      if (!target) return;
+
+      window.history.pushState(null, "", href);
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  };
+
   return (
     <motion.nav
       initial={{ y: -100 }}
@@ -191,7 +204,10 @@ export default function Navbar() {
                 <a
                   key={item.name}
                   href={item.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    handleMobileNavClick(item.href);
+                  }}
                   className={`block text-sm transition-colors ${
                     activeSection === item.href.substring(1)
                       ? "text-blue-400"
