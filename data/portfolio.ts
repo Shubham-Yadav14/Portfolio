@@ -36,7 +36,7 @@ export const portfolio = {
         "Architected Role-Based Access Control (RBAC) and Kanban-style task management systems, enabling secure authorization, workflow tracking, and team collaboration.",
         "Integrated OpenAI-powered task summarization and progress reporting, reducing manual reporting effort and improving managerial visibility.",
       ],
-      technologies: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "MongoDB", "OpenAI", "RBAC", "Kanban"],
+      technologies: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "MongoDB", "OpenAI", "Kanban"],
     },
     {
       company: "Userology",
@@ -47,7 +47,7 @@ export const portfolio = {
         "Engineered a scalable tree-based message versioning architecture supporting branching, editing, deletion, and navigation across AI conversation histories.",
         "Designed a session manager supporting parallel AI chat sessions, maintaining isolated state and preventing conflicts across concurrent interviewer workflows.",
       ],
-      technologies: ["Next.js", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "AWS S3", "JWT", "Tailwind CSS"],
+      technologies: ["Next.js", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "AWS S3", "Tailwind CSS"],
     },
     {
       company: "Anchorage",
@@ -59,6 +59,27 @@ export const portfolio = {
         "Improved operational efficiency by 33% while reducing manual workload by 40%.",
       ],
       technologies: ["Next.js", "TypeScript", "React Native", "Node.js", "Express.js", "PostgreSQL", "Socket.IO", "Tailwind CSS"],
+    },
+    {
+      company: "Ascella",
+      position: "Software Developer Intern",
+      period: "Oct 2023 – Dec 2023",
+      responsibilities: [
+        "Engineered geolocation-based hospital check-ins to reduce manual steps and enhance patient experience.",
+        "Synced web and mobile feature sets to ensure cross-platform consistency and reduced regression issues.",
+        "Built secure and scalable payment APIs for healthcare billing and improved transaction reliability.",
+      ],
+      technologies: ["React.js", "TypeScript", "React Native", "Node.js", "Express.js", "PostgreSQL", , "Tailwind CSS"],
+    },
+    {
+      company: "Panacee Software Solutions",
+      position: "Software Developer Intern",
+      period: "Jul 2023 – Sep 2023",
+      responsibilities: [
+        "Built a hospital management portal for a French client (Medecom), improving online engagement and SEO reach.",
+        "Developed an NGO website for Jeevshakti to increase awareness and support fundraising campaigns.",
+      ],
+      technologies: [ "React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
     },
   ],
 
