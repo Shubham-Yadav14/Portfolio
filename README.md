@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-**[Visit Portfolio](https://shubhamyadavporfolio.netlify.app/)**
+**[Visit Portfolio](https://portfolioshubhamyadav.netlify.app/)**
 
 ---
 
